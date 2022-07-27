@@ -8,7 +8,7 @@ const Footer = () => {
     <div
     >
       <h1>Powered by Dune Analytics</h1>
-      <div className="footerdiv">
+      <div className="col-md-6 mx-auto">
       <h6>View all 3landers and 3land world assets on any of the following marketplaces. (Opensea) (LooksRare) (X2Y2) 
        Keep in mind this is a community made dashboard and all the data may not be completely accurate.</h6>
        </div>

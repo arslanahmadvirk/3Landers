@@ -12,20 +12,20 @@
   }
 }
 
-.navbar-nav{
-  gap: 1.5rem;
+.navbar-nav {
+  gap: 0.6rem;
 }
 @media (max-width: 992px) {
-  .navbar-nav{
+  .navbar-nav {
     gap: 0rem;
   }
 }
-.notion-link{
+.notion-link {
   font-size: 20px;
   color: #323232;
 }
-.notion-link:hover{
-  color: #2C7A7B;
+.notion-link:hover {
+  color: #2c7a7b;
 }
 .features-btn:hover {
   background-color: #ca1426;
@@ -35,19 +35,19 @@
 .nav-item {
   color: rgb(0, 0, 0);
   font-size: 18px;
+  
 }
 #navbarDropdownMenuLink {
   color: rgb(0, 0, 0);
 }
 
 .nav-item:hover {
-  color: #2C7A7B;
+  color: #2c7a7b;
   text-decoration: underline;
-  
 }
 
 #navbarDropdownMenuLink:hover {
-  color: #2C7A7B;
+  color: #2c7a7b;
 }
 .dropdown-menu {
   border-radius: 15px;
@@ -97,22 +97,16 @@
   justify-content: center;
 }
 @media (min-width: 992px) {
-  .contentSection{
+  .contentSection {
     padding-left: 5rem;
     padding-right: 5rem;
-   }
+  }
 }
-.embbedStyle{
+.embbedStyle {
   border: 2px solid black;
 }
-@media (min-width: 992px) {
-  .footerdiv{
-    padding-left: 20rem;
-    padding-right: 20rem;
-   }
-}
 
-.activeHolders{
+.activeHolders {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -136,6 +130,31 @@
   justify-content: center;
   align-items: center;
 }
-
-
-
+.social-media {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.social-media p a {
+  border: 1px solid #e6e6e6;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.social-media p a span {
+  color: #4d4d4d;
+}
+.social-media p a:hover {
+  background: #2c7a7b;
+  border-color: #2c7a7b;
+}
+.social-media p a:hover span {
+  color: #fff;
+}
+/* @media (max-width: 992px) {
+  .social-media{
+    text-align: center;
+  }
+  
+} */
