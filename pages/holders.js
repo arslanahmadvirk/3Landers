@@ -54,8 +54,8 @@ const Holders = () => {
          <div className="embbedStyle text-center activeHolders">
             <iframe
               src="https://dune.com/embeds/454235/863043/83991e01-176f-484d-a035-3ff572aad737"
-              width={1000}
-              height={400}
+              width="1000"
+              height="400"
               title="Active Holders"
             ></iframe>
           </div>

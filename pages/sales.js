@@ -53,8 +53,8 @@ const Sales = () => {
          <div className="embbedStyle text-center activeHolders">
             <iframe
               src="https://dune.com/embeds/446364/848384/0252db9a-72ec-4970-b9d5-079ee983e88b"
-              width={1000}
-              height={300}
+              width="1000"
+              height="300"
               title="OpenSea Sales Table"
             ></iframe>
           </div>
@@ -66,7 +66,7 @@ const Sales = () => {
             <iframe
               src="https://dune.com/embeds/448197/851593/822271c4-d209-4f0b-a122-865f4074bdc3"
               height="300"
-              width="500"
+              width="300"
               title="Min Sale 24hr"
             ></iframe>
           </div>
@@ -74,7 +74,7 @@ const Sales = () => {
             <iframe
               src="https://dune.com/embeds/448197/851596/80aa918d-6d33-483f-b12e-f860b38f178c"
               height="300"
-              width="500"
+              width="300"
               title="Max Sale 24hr"
             ></iframe>
           </div>

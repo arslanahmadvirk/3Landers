@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className=" w-100 p-1 px-2 navbar navv navbar-expand-lg navbar-light position-fixed top-0 start-0">
       <div className="container-fluid">
         <Link href="/" passHref>
-          <div className="navbarBrand fw-bold">
+          <div className="navbarBrand">
             <Image src={navlogo} alt="Brand" width={160} height={50} />
           </div>
         </Link>
