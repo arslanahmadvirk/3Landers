@@ -1,13 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import GifIMG from "../assets/images/sales.png";
+import GifIMG from "../assets/images/sneaking.gif";
+import bioms from '../assets/images/biomes.gif'
 import styles from "../styles/Home.module.css";
 const Sales = () => {
   return (
     <div className="container mb-5">
-      <div className="contentSection row featuresDiv">
-        <div className="col-md-6 mt-0 mt-4">
+      <div className="contentSection row col-md-10 mx-auto">
+        <div className="col-md-5 mx-auto mt-0 mt-4">
           <div>
             <h1>Sales</h1>
             <h6>
@@ -16,8 +17,8 @@ const Sales = () => {
             </h6>
           </div>
         </div>
-        <div className="col-md-6 text-center">
-          <Image src={GifIMG} alt="Captain" width={250} height={250} />
+        <div className="col-md-7 text-center">
+          <Image src={GifIMG} alt="Captain" width={400} height={300}/>
         </div>
       </div>
       <div className="container text-center">
@@ -80,6 +81,30 @@ const Sales = () => {
           </div>
         </div>
       </div>
+      <div className="salesSection">
+          <div>
+            <h1> View all 3landers and 3land world</h1>
+            <h6>
+            View all 3landers and 3land world assets on any of the following marketplaces.
+             (Opensea) (LooksRare) (X2Y2) Keep in mind this is a community 
+             made dashboard and all the data may not be completely accurate.
+            </h6>
+          </div>
+        <div className="embbedStyle text-center activeHolders mb-5">
+            <iframe
+              src="https://dune.com/embeds/1111586/1899667/75d95164-15e0-4847-90c8-a07435c36b58"
+              width="1000"
+              height="300"
+              title="OpenSea Sales Table"
+            ></iframe>
+          </div>
+          <h1> Biomes data coming soon!!</h1>
+          <div>
+          <Image src={bioms} alt="Captain" width={500} height={300}/>
+          </div>
+
+      </div>
+     
     </div>
   );
 };

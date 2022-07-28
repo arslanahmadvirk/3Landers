@@ -12,9 +12,6 @@
   }
 }
 
-.navbar-nav {
-  gap: 0.6rem;
-}
 @media (max-width: 992px) {
   .navbar-nav {
     gap: 0rem;
@@ -22,32 +19,40 @@
 }
 .notion-link {
   font-size: 20px;
-  color: #323232;
+  color: #B83280;
 }
 .notion-link:hover {
-  color: #2c7a7b;
+  color: #940057;
 }
-.features-btn:hover {
-  background-color: #ca1426;
-  color: white;
-  border: 1px solid transparent;
-}
+
 .nav-item {
   color: rgb(0, 0, 0);
   font-size: 18px;
-  
 }
+.active{
+  color: #B83280;
+  font-size: 18px;
+}
+.non-active{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.non-active:hover{
+  color: #B83280;
+  text-decoration: underline;
+}
+
 #navbarDropdownMenuLink {
   color: rgb(0, 0, 0);
 }
 
 .nav-item:hover {
-  color: #2c7a7b;
+  color: #B83280;
   text-decoration: underline;
 }
 
 #navbarDropdownMenuLink:hover {
-  color: #2c7a7b;
+  color: #B83280;
 }
 .dropdown-menu {
   border-radius: 15px;
@@ -88,22 +93,20 @@
   flex-direction: column;
 }
 
-.howitworksdec {
-  text-align: justify;
-}
 .contentSection {
-  margin-top: 7rem;
+  margin-top: 6rem;
   margin-bottom: 5rem;
   justify-content: center;
 }
-@media (min-width: 992px) {
-  .contentSection {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
+.salesSection {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  justify-content: center;
 }
+
 .embbedStyle {
-  border: 2px solid black;
+  border: 2px solid #B83280;
 }
 
 .activeHolders {
@@ -114,7 +117,7 @@
 .contentSection h1 {
   font-size: 34px;
   line-height: 3rem;
-  color: #000;
+  color: #B83280;
   font-family: "Arial Black", Gadget, sans-serif;
 }
 .contentSection h6 {
@@ -123,6 +126,25 @@
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+}
+
+.salesSection h1 {
+  font-size: 34px;
+  line-height: 3rem;
+  color: #B83280;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.salesSection h6 {
+  text-align: justify;
+  font-size: 17px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.title{
+  color: #B83280;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
 }
 
 .abc {
@@ -146,15 +168,12 @@
   color: #4d4d4d;
 }
 .social-media p a:hover {
-  background: #2c7a7b;
-  border-color: #2c7a7b;
+  background: #B83280;
+  border-color: #B83280;
+}
+.homelinks a{
+  color: #B83280;
 }
 .social-media p a:hover span {
   color: #fff;
 }
-/* @media (max-width: 992px) {
-  .social-media{
-    text-align: center;
-  }
-  
-} */

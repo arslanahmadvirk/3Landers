@@ -19,8 +19,8 @@ a {
 }
 .navbar {
   z-index: 10;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #ececec;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 @media (max-width: 992px) {
@@ -32,17 +32,33 @@ a {
   }
 }
 
-.btn {
-  border-radius: 10px;
-  background-color: #2C7A7B;
+.btn-active {
+  border-radius: 30px;
+  background-color: #B83280;
   color: white;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80px;
+}
+.btn-nonactive{
+  border: 1px solid #B83280;
+  background: transparent;
+  color: #B83280;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 80px;
 }
 .btn:hover {
-  background-color: #234E52;
+  background-color: #B83280;
   color: white;
   border: 1px solid transparent;
   outline: none !important;
   -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-active:focus {
+  outline:none;
   box-shadow: none;
 }
 

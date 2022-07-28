@@ -18,8 +18,8 @@ import styles from "../styles/Home.module.css";
 const Traits = () => {
   return (
     <div className="container mb-5">
-      <div className="contentSection row featuresDiv">
-        <div className="col-md-6 mt-0 mt-4">
+      <div className="contentSection row col-md-10 mx-auto">
+        <div className="col-md-6 mx-auto mt-0 mt-4">
           <div>
             <h1>Traits</h1>
             <h6>
@@ -28,7 +28,7 @@ const Traits = () => {
             </h6>
           </div>
         </div>
-        <div className="col-md-6 text-center">
+        <div className="col-md-4 text-center">
           <Image src={GifIMG} alt="Captain" width={250} height={250}/>
         </div>
       </div>
@@ -45,16 +45,24 @@ const Traits = () => {
 
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Human} alt="Human" width={430} height={300} />
+            <Image src={Human} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+           <div className="col-md-6 activeHolders text-center">
            <iframe
               src="https://dune.com/embeds/467155/885487/78e02f57-4a2e-4167-8c98-5eac0066cb09"
               height="200"
-              width="700"
+              width="600"
               title="Min Sale 24hr"
             ></iframe>
            </div>
@@ -62,12 +70,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Ape} alt="Human" width={430} height={300} />
+            <Image src={Ape} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/466668/884612/104abea1-f1f3-4dc7-8211-d1ebfe9d4f95"
               height="200"
@@ -79,12 +95,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Bot3L} alt="Human" width={430} height={300} />
+            <Image src={Bot3L} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/464136/880352/fd176e84-a54b-46b1-be13-58cd49c25a71"
               height="200"
@@ -96,12 +120,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Sealander} alt="Human" width={430} height={300} />
+            <Image src={Sealander} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/448968/853289/8439fd31-92d2-4745-9504-279fcfb43793"
               height="200"
@@ -113,12 +145,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Spirit} alt="Human" width={430} height={300} />
+            <Image src={Spirit} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/448768/852910/7f344ee3-26c0-430e-871a-682e1d024ca7"
               height="200"
@@ -130,12 +170,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Zombie} alt="Human" width={430} height={300} />
+            <Image src={Zombie} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/448554/852466/3becf80c-b6e5-4150-8426-9aa73bb1dce0"
               height="200"
@@ -147,12 +195,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Golem} alt="Human" width={430} height={300} />
+            <Image src={Golem} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/445170/846122/94a61d34-eaaa-4e04-a52e-0a4c0dddfe63"
               height="200"
@@ -164,12 +220,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Cyborg} alt="Human" width={430} height={300} />
+            <Image src={Cyborg} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/445292/846232/8424f5da-c9ef-4cc6-b955-4946a9c91078"
               height="200"
@@ -181,12 +245,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Alien} alt="Human" width={430} height={300} />
+            <Image src={Alien} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/449088/853527/35bf5164-e413-4326-97a6-7c6fb2d10928"
               height="200"
@@ -198,12 +270,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Devil} alt="Human" width={430} height={300} />
+            <Image src={Devil} alt="Human" width={400} height={350} layout='responsive'/>
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/449093/853536/9f608893-04c5-4217-8971-b81bb6e9df6b"
               height="200"
@@ -215,12 +295,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Meltie} alt="Human" width={430} height={300} />
+            <Image src={Meltie} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/449094/853539/48837c37-41eb-4ce8-b657-b661fac531d1"
               height="200"
@@ -232,12 +320,20 @@ const Traits = () => {
       </div>
       <div className="container mt-4 embbedStyle">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <div>
-            <Image src={Bubbly} alt="Human" width={430} height={300} />
+            <Image src={Bubbly} alt="Human" width={400} height={350} layout='responsive' />
             </div>
           </div>
-          <div className="col-md-8 activeHolders">
+          <div className="col-md-3 text-center">
+           <iframe
+              src="https://dune.com/embeds/445102/845889/87d85979-11c8-4546-940a-62f861987070"
+              height="200"
+              width="200"
+              title="Min Sale 24hr"
+            ></iframe>
+           </div>
+          <div className="col-md-6 activeHolders">
            <iframe
               src="https://dune.com/embeds/466563/884394/a3c99903-a393-4108-903b-7559871ad0a0"
               height="200"

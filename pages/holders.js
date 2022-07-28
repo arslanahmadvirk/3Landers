@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import GifIMG from "../assets/images/handshake.png";
+import GifIMG from "../assets/images/campfire.gif";
 import styles from "../styles/Home.module.css";
 const Holders = () => {
   return (
     <div className="container mb-5">
-      <div className="contentSection row">
-        <div className="col-md-6 mt-4">
+      <div className="col-md-10 mx-auto contentSection row">
+        <div className="col-md-5 mt-4 mx-auto">
           <div>
             <h1>Holders</h1>
             <h6>
@@ -17,13 +17,13 @@ const Holders = () => {
             </h6>
           </div>
         </div>
-        <div className="col-md-6 text-center">
-          <Image src={GifIMG} alt="Captain" width={250} height={250} />
+        <div className="col-md-7 text-center">
+          <Image src={GifIMG} alt="Captain" width={450} height={250} layout='responsive'/>
         </div>
       </div>
       <div className="container text-center">
         <div className="row">
-          <div className="col-md-4 embbedStyle">
+          <div className="col-md-4 embbedStyle text-center">
             <iframe
               src="https://dune.com/embeds/446387/848432/86dbaca6-296c-4414-994c-cdc8ef384de2"
               height="300"
@@ -31,7 +31,7 @@ const Holders = () => {
               title="Unique Holders"
             ></iframe>
           </div>
-          <div className="col-md-4 embbedStyle">
+          <div className="col-md-4 embbedStyle text-center">
             <iframe
               src="https://dune.com/embeds/446387/848433/5b69b906-ed78-46c4-9956-dd8f5ffe4d0f"
               height="300"
@@ -39,7 +39,7 @@ const Holders = () => {
               title="Unique Holders Ratio"
             ></iframe>
           </div>
-          <div className="col-md-4 embbedStyle">
+          <div className="col-md-4 embbedStyle text-center">
             <iframe
               src="https://dune.com/embeds/453683/861992/92545284-9c40-4f62-b9ee-4d898b2846fa"
               height="300"
@@ -80,6 +80,16 @@ const Holders = () => {
             ></iframe>
           </div>
         </div>
+      </div>
+      <div className="mt-4">
+         <div className="embbedStyle text-center activeHolders">
+            <iframe
+              src="https://dune.com/embeds/473656/897147/1acd3cef-073c-4863-879b-2e223a4ea3ff"
+              width="1000"
+              height="350"
+              title="Active Holders"
+            ></iframe>
+          </div>
       </div>
     </div>
   );

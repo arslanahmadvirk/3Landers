@@ -1,16 +1,21 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import navlogo from "../assets/images/landers1.png";
+import navlogo from "../assets/images/Eyes.gif";
 import opensea from '../assets/images/opensea1.png'
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
   return (
     <nav className=" w-100 p-1 px-2 navbar navv navbar-expand-lg navbar-light position-fixed top-0 start-0">
       <div className="container-fluid">
         <Link href="/" passHref>
           <div className="navbarBrand">
-            <Image src={navlogo} alt="Brand" width={160} height={50} />
+            <Image src={navlogo} alt="Brand" width={60} height={60} />
           </div>
         </Link>
         <button
@@ -31,47 +36,51 @@ const Navbar = () => {
           <ul className="navbar-nav navItems text-center px-3">
             <Link href="/" passHref>
               <a className="nav-link">
-                <li
-                  className="nav-item"
-                  data-bs-toggle="collapse"
-                  data-bs-target=".navbar-collapse.show"
-                >
-                  Home
-                </li>
+              <button
+                    type="button"
+                    className={currentRoute === "/" ? "btn-active btn" : "btn-nonactive btn" }
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    Home
+                  </button>
               </a>
             </Link>
             <Link href="/holders" passHref>
               <a className="nav-link">
-                <li
-                  className="nav-item"
-                  data-bs-toggle="collapse"
-                  data-bs-target=".navbar-collapse.show"
-                >
-                  Holders
-                </li>
+              <button
+                    type="button"
+                    className={currentRoute === "/holders" ? "btn-active btn" : "btn-nonactive btn" }
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    Holders
+                  </button>
               </a>
             </Link>
             <Link href="/sales" passHref>
               <a className="nav-link">
-                <li
-                  className="nav-item"
-                  data-bs-toggle="collapse"
-                  data-bs-target=".navbar-collapse.show"
-                >
-                  Sales
-                </li>
+              <button
+                    type="button"
+                    className={currentRoute === "/sales" ? "btn-active btn" : "btn-nonactive btn" }
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    Sales
+                  </button>
               </a>
             </Link>
 
             <Link href="/traits" passHref>
               <a className="nav-link">
-                <li
-                  className="nav-item"
-                  data-bs-toggle="collapse"
-                  data-bs-target=".navbar-collapse.show"
-                >
-                  Traits
-                </li>
+              <button
+                    type="button"
+                    className={currentRoute === "/traits" ? "btn-active btn" : "btn-nonactive btn" }
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    Traits
+                  </button>
               </a>
             </Link>
           </ul>
