@@ -5,7 +5,7 @@ import GifIMG from "../assets/images/gif.gif";
 import BannerIMG from "../assets/images/banner.jpeg";
 import HandShake from "../assets/images/user.png";
 import Sales from "../assets/images/coupon.png";
-import DNALogo from "../assets/images/spiritglow.gif";
+import DNALogo from "../assets/images/dna.png";
 import styles from "../styles/Home.module.css";
 const Banner = () => {
   return (
