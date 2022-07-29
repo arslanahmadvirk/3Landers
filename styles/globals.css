@@ -34,23 +34,23 @@ a {
 
 .btn-active {
   border-radius: 30px;
-  background-color: #B83280;
+  background-color: #000000;
   color: white;
   font-size: 14px;
   font-weight: 600;
   width: 80px;
 }
 .btn-nonactive{
-  border: 1px solid #B83280;
+  border: 1px solid #000000;
   background: transparent;
-  color: #B83280;
+  color: #000000;
   border-radius: 30px;
   font-weight: 600;
   font-size: 14px;
   width: 80px;
 }
 .btn:hover {
-  background-color: #B83280;
+  background-color: #000000;
   color: white;
   border: 1px solid transparent;
   outline: none !important;

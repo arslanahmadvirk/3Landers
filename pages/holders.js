@@ -84,7 +84,7 @@ const Holders = () => {
       <div className="mt-4">
          <div className="embbedStyle text-center activeHolders">
             <iframe
-              src="https://dune.com/embeds/473656/897147/1acd3cef-073c-4863-879b-2e223a4ea3ff"
+              src="https://dune.com/embeds/1111175/1898633/0e53df16-adbe-470f-9e55-e71fc0c54945"
               width="1000"
               height="350"
               title="Active Holders"

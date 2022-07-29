@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import GifIMG from "../assets/images/dna.png";
+import GifIMG from "../assets/images/spiritglow.gif";
 import Human from "../assets/images/DNAs/Human.jpeg"
 import Ape from '../assets/images/DNAs/Ape.jpeg'
 import Bot3L from '../assets/images/DNAs/3lbot.jpeg'
@@ -19,7 +19,7 @@ const Traits = () => {
   return (
     <div className="container mb-5">
       <div className="contentSection row col-md-10 mx-auto">
-        <div className="col-md-6 mx-auto mt-0 mt-4">
+        <div className="col-md-5 mx-auto mt-0 mt-4">
           <div>
             <h1>Traits</h1>
             <h6>
@@ -28,8 +28,8 @@ const Traits = () => {
             </h6>
           </div>
         </div>
-        <div className="col-md-4 text-center">
-          <Image src={GifIMG} alt="Captain" width={250} height={250}/>
+        <div className="col-md-7 text-center">
+          <Image src={GifIMG} alt="Captain" width={300} height={300}/>
         </div>
       </div>
       <div className="mt-4">

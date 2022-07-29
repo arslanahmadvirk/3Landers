@@ -5,7 +5,7 @@ import GifIMG from "../assets/images/gif.gif";
 import BannerIMG from "../assets/images/banner.jpeg";
 import HandShake from "../assets/images/user.png";
 import Sales from "../assets/images/coupon.png";
-import DNALogo from "../assets/images/dna.png";
+import DNALogo from "../assets/images/spiritglow.gif";
 import styles from "../styles/Home.module.css";
 const Banner = () => {
   return (
@@ -91,8 +91,8 @@ const Banner = () => {
                     src={HandShake}
                     alt="icon"
                     className="cursor-pointer"
-                    width={150}
-                    height={150}
+                    width={90}
+                    height={90}
                   />
                 </Link>
                 <div>
@@ -105,8 +105,8 @@ const Banner = () => {
                     src={Sales}
                     className="ms-2 cursor-pointer"
                     alt="icon"
-                    width={150}
-                    height={150}
+                    width={90}
+                    height={90}
                   />
                 </Link>
                 <div>
@@ -119,8 +119,8 @@ const Banner = () => {
                     src={DNALogo}
                     className="cursor-pointer"
                     alt="icon"
-                    width={150}
-                    height={150}
+                    width={90}
+                    height={90}
                   />
                 </Link>
                 <div>

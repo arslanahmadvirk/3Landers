@@ -19,10 +19,10 @@
 }
 .notion-link {
   font-size: 20px;
-  color: #B83280;
+  color: #434343;
 }
 .notion-link:hover {
-  color: #940057;
+  color: #000000;
 }
 
 .nav-item {
@@ -106,7 +106,7 @@
 }
 
 .embbedStyle {
-  border: 2px solid #B83280;
+  border: 2px solid #000000;
 }
 
 .activeHolders {
@@ -117,7 +117,7 @@
 .contentSection h1 {
   font-size: 34px;
   line-height: 3rem;
-  color: #B83280;
+  color: #000000;
   font-family: "Arial Black", Gadget, sans-serif;
 }
 .contentSection h6 {
@@ -131,7 +131,7 @@
 .salesSection h1 {
   font-size: 34px;
   line-height: 3rem;
-  color: #B83280;
+  color: #000000;
   font-family: "Arial Black", Gadget, sans-serif;
 }
 .salesSection h6 {
@@ -142,7 +142,7 @@
   line-height: 1.5;
 }
 .title{
-  color: #B83280;
+  color: #000000;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 25px;
 }
@@ -168,11 +168,11 @@
   color: #4d4d4d;
 }
 .social-media p a:hover {
-  background: #B83280;
-  border-color: #B83280;
+  background: #000000;
+  border-color: #000000;
 }
 .homelinks a{
-  color: #B83280;
+  color: #000000;
 }
 .social-media p a:hover span {
   color: #fff;
