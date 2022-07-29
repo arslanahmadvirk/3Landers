@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-md-6 mt-1">
           <h1>Powered by</h1>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 text-center">
           <Image src={dunelogo} alt="Vercel Logo" width={110} height={35} />
           </div>
         </div>
